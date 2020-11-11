@@ -5,7 +5,6 @@
       .getHours()).slice(-2) + ":" + ("00" + date.getMinutes()).slice(-2) +
     ":" + ("00" + date.getSeconds()).slice(-2);
 
-  // Withdrawals
   function withdrawals() {
     return $.ajax({
         url: "https://crypto.com/fe-ex-api/record/withdraw_list",
