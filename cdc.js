@@ -45,7 +45,6 @@
 
   function crostaking() {
     return $.ajax({
-      async: false,
       url: "https://crypto.com/fe-ex-api/record/staking_interest_history",
       type: "POST",
       dataType: "json",
@@ -65,7 +64,6 @@
 
   function softstaking() {
     return $.ajax({
-        async: false,
         url: "https://crypto.com/fe-ex-api/record/soft_staking_interest_list",
         type: "POST",
         dataType: "json",
@@ -85,7 +83,6 @@
 
   function rebates() {
     return $.ajax({
-      async: false,
       url: "https://crypto.com/fe-ex-api/record/rebate_trading_fee_history",
       type: "POST",
       dataType: "json",
@@ -105,7 +102,6 @@
 
   function syndicates() {
     return $.ajax({
-      async: false,
       url: "https://crypto.com/fe-ex-api/syndicate/user/activities?isCompleted=true&page=1&pageSize=10",
       type: "GET",
       dataType: "json",
@@ -118,7 +114,6 @@
 
   function supercharger() {
     return $.ajax({
-      async: false,
       url: "https://crypto.com/fe-ex-api/record/supercharger_reward_history",
       type: "POST",
       dataType: "json",
