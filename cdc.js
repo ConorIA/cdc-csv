@@ -18,7 +18,7 @@
           "uaTime": dateStr,
           "securityInfo": "{\"timestamp\":\"" + dateStr + "\",\"meta\":{}}",
           "pageSize": 200,
-          "page": 1,
+          "page": 2,
           "coinSymbol": null
         })
       });
@@ -37,7 +37,7 @@
         "uaTime": dateStr,
         "securityInfo": "{\"timestamp\":\"" + dateStr + "\",\"meta\":{}}",
         "pageSize": 200,
-        "page": 1,
+        "page": 2,
         "coinSymbol": null
       })
     });
@@ -57,7 +57,7 @@
         "securityInfo": "{\"timestamp\":\"" + dateStr +
           "\",\"meta\":{}}",
         "pageSize": 200,
-        "page": 1
+        "page": 2
       })
     });
   }
@@ -76,7 +76,7 @@
           "securityInfo": "{\"timestamp\":\"" + dateStr +
             "\",\"meta\":{}}",
           "pageSize": 200,
-          "page": 1
+          "page": 2
         })
       });
   }
@@ -95,7 +95,7 @@
         "securityInfo": "{\"timestamp\":\"" + dateStr +
           "\",\"meta\":{}}",
         "pageSize": 200,
-        "page": 1
+        "page": 2
       })
     });
   }
@@ -125,7 +125,7 @@
         "uaTime": dateStr,
         "securityInfo": "{\"timestamp\":\"" + dateStr + "\",\"meta\":{}}",
         "pageSize": 200,
-        "page": 1
+        "page": 2
       })
     });
   }
