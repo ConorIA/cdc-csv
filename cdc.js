@@ -1,4 +1,5 @@
 (function () {
+  let page = prompt("Enter page number", "1");
   var date = new Date();
   var dateStr = date.getFullYear() + "-" + ("00" + (date.getMonth() + 1))
     .slice(-2) + "-" + ("00" + date.getDate()).slice(-2) + " " + ("00" + date
@@ -18,7 +19,7 @@
           "uaTime": dateStr,
           "securityInfo": "{\"timestamp\":\"" + dateStr + "\",\"meta\":{}}",
           "pageSize": 200,
-          "page": 2,
+          "page": page,
           "coinSymbol": null
         })
       });
@@ -37,7 +38,7 @@
         "uaTime": dateStr,
         "securityInfo": "{\"timestamp\":\"" + dateStr + "\",\"meta\":{}}",
         "pageSize": 200,
-        "page": 2,
+        "page": page,
         "coinSymbol": null
       })
     });
@@ -57,7 +58,7 @@
         "securityInfo": "{\"timestamp\":\"" + dateStr +
           "\",\"meta\":{}}",
         "pageSize": 200,
-        "page": 2
+        "page": page
       })
     });
   }
@@ -76,7 +77,7 @@
           "securityInfo": "{\"timestamp\":\"" + dateStr +
             "\",\"meta\":{}}",
           "pageSize": 200,
-          "page": 2
+          "page": page
         })
       });
   }
@@ -95,7 +96,7 @@
         "securityInfo": "{\"timestamp\":\"" + dateStr +
           "\",\"meta\":{}}",
         "pageSize": 200,
-        "page": 2
+        "page": page
       })
     });
   }
@@ -125,7 +126,7 @@
         "uaTime": dateStr,
         "securityInfo": "{\"timestamp\":\"" + dateStr + "\",\"meta\":{}}",
         "pageSize": 200,
-        "page": 2
+        "page": page
       })
     });
   }
